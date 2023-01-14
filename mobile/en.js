@@ -80,7 +80,7 @@ export default {
   whatHDMIPortShouldWeSwitchToAtTheEndOfaCall:
     'What HDMI port should we switch to at the end of a call?',
   thisIsUsuallyYourCableBoxSetTopBox:
-    'This is usually your cable box, set-top box, or otherinput that you frequently watch.',
+    'This is usually your cable box, set-top box, or other input that you frequently watch.',
   selectYourTVPort: 'Select your TV port',
   imUsingATunerOrAntenna: "I'm using a Tuner or Antenna",
   letsTestSwitchingToYourTV: "Let's test switching to your TV:",
@@ -119,7 +119,7 @@ export default {
   pleaseClickAllow: 'Please click Allow',
   onThePopUp: 'on the pop-up',
   ifYouDontGiveAccessToYourMicOrCamera:
-    'If you don’t give access to your Mic or Camera, you won’t beable to make video calls, which defeats the purpose of ONSCREEN Please Allow to continue…',
+    'If you don’t give access to your Mic or Camera, you won’t be able to make video calls, which defeats the purpose of ONSCREEN Please Allow to continue…',
   weAreAboutToAskFor: 'We are about to ask for',
   contactsPermission: 'Contacts Permission',
   makingACallIsEasyDirectly:
@@ -161,7 +161,6 @@ export default {
     ' Look at the screen for the best available networks.',
   continueWithWiFi: 'Continue with WiFi',
   imUsingAnEthernetCable: "I'm using an Ethernet cable",
-
   alreadyHaveAnAccount: 'Already have an account?',
   meetingCode: 'Meeting Code',
   meetingPassword: 'Meeting Password',
@@ -223,7 +222,7 @@ export default {
   password: 'Password',
   share: 'Share',
   always: 'Always',
-  selectDatesToEnabledAutoAnswer: 'Select Dates to enabled Auto-Answer.',
+  selectDatesToEnabledAutoAnswer: 'Select Dates to enable Auto-Answer.',
   startTime: 'Start time',
   endTime: 'End time',
   addAnotherLovedOne: 'Add another loved one',
@@ -275,7 +274,6 @@ export default {
   isConnected: 'is connected!',
   nowLetsCheckTheSettingsAndSet:
     "Now let's check the Settings and set the TV HDMI ports and Auto-Answer options to ensure the TV switches to the calls when they come in.",
-
   whenYoureReadyToCallYourLovedOne:
     "When you're ready to call your loved one, you simply click here.  Try it at the end of this tour",
   callActiveOnSpark: 'Call Active on Spark',
@@ -292,7 +290,7 @@ export default {
   additionalOptions: 'Additional Options',
   shareYouTubeVideoAtStart: 'Share YouTube Video at Start',
   playYourSelectedYouTubeVideoPlaylist:
-    'Play your selected YouTube Video Playlist for the loved one before the Daily Update recording prompt.Select one in the Share YouTube Video section.',
+    'Play your selected YouTube Video Playlist for the loved one before the Daily Update recording prompt. Select one in the Share YouTube Video section.',
   recordingLength: 'Recording Length',
   theDurationInSecondsForTheRecording:
     'The duration in seconds for the recording, with a max of 5 minutes.',
@@ -306,10 +304,8 @@ export default {
   shareYouTubeVideo: 'Share YouTube Video',
   beta: 'BETA',
   pasteYouTubePlaylistURL: 'Paste YouTube Playlist URL',
-
   pasteTheURLoftheplaylistyouCopiedfromtheYouTubeapp:
     'Paste the URL of the playlist you copied from the YouTube app.',
-
   shareAYouTubePlaylistToSendVideos:
     "Share a YouTube playlist to send videos directly to your loved one's TV.  Tap here to learn more.",
   yourPlaylistIsSetUpAndReadyToPlay:
@@ -689,6 +685,5 @@ export default {
   allowContactsDescription: "Without allowing this permissions, you will not be able to make calls.  Please go to Settings and enable the permission.\n\nDo you want to go to Settings now?",
   joinToZoom: "Join {{careReceiverName}} to a Zoom Meeting",
   joinAZoom: "Join a Zoom Meeting",
-  joinMeeting: "Join Meeting",
   toHostAMeeting: "To host a meeting,\nplease use Start Meeting."
 }
