@@ -1,6 +1,7 @@
 export default {
     signIn: "PRIJAVA",
-    weSorryThisLinkIsExpired: "Oprostite, ta povezava je potekla",
+    signup: "PRIJAVITE SE",
+    expiredLink: "Oprostite, ta povezava je potekla",
     loading: "Nalaganje...",
     newUser: "Novi uporabniki",
     existingUser: "Obstoječi uporabniki",
@@ -223,7 +224,7 @@ export default {
     password: "Geslo",
     share: "Deli",
     always: "Vedno",
-    selectDatesToEnabledAutoAnswer:
+    selectDatesToEnableAutoAnswer:
         "Izberi datume, da omogočiš samodejni odgovor.",
     startTime: "Začetni čas",
     endTime: "Končni čas",
@@ -434,7 +435,7 @@ export default {
     weCouldNotSignYouOut: "Nismo vas mogli odjaviti, obrnite se na podporo.",
     possibleConnectionProblem: "Možna težava s povezavo",
     letsHaveACallViaOnScreen:
-        "`Pokličimo se prek ONSCREEN. Kliknite tukaj, da dobite aplikacijo in se prijavite:{{dynamicLink}} Če že imate aplikacijo, se prijavite.`",
+        "Pokličimo se prek ONSCREEN. Kliknite tukaj, da dobite aplikacijo in se prijavite:{{dynamicLink}} Če že imate aplikacijo, se prijavite.",
     yourMeetingCodeIsTooShort:
         "Vaša koda sestanka je prekratka. Vnesite kodo sestanka dolgo med 9 in 11 znakov.",
     pleaseEnterTheMeetingCode: "Prosimo, vnesite kodo srečanja.",
@@ -460,9 +461,9 @@ export default {
         "Prosimo, izberite, kako želite končati klic.",
     hangUpAndTurnRemoteTVOff: "Prekini in izklopi daljinski TV",
     pleaseCompleteAllTheStepsOnThisPage:
-        "`Prosimo, dokončajte vse korake na tej strani.`",
-    joinToAZoomMeeting: "`Pridruži se {{careReceiverName }} sestanku Zoom`",
-    readyToVerbThisMeeting: "`Ste pripravljeni na {{verb}} ta sestanek?`",
+        "Prosimo, dokončajte vse korake na tej strani.",
+    joinToAZoomMeeting: "Pridruži se {{careReceiverName }} sestanku Zoom",
+    readyToVerbThisMeeting: "Ste pripravljeni na {{verb}} ta sestanek?",
     pleaseWaitTillTheUser:
         "Prosimo, počakajte, da uporabnik prenese in namesti aplikacijo.",
     pleaseAllowUpTo2MinutesForTheOtherParty:
@@ -471,18 +472,18 @@ export default {
     sorryYouCantCallYourself:
         "Oprostite, ne morete poklicati samega sebe. Vendar dober poskus.",
     oopUserFirstNameIsNotCurrentlyLogged:
-        "`Ojoj ... {{firstName}} trenutno ni prijavljen v ONSCREEN. Pošljite jim besedilno sporočilo, naj se prijavijo, da jih lahko pokličete.`",
+        "Ojoj ... {{firstName}} trenutno ni prijavljen v ONSCREEN. Pošljite jim besedilno sporočilo, naj se prijavijo, da jih lahko pokličete.",
     somethingWentWrong: "Nekaj je šlo narobe",
     wereSorryButWeCantPlaceACall:
         "Žal nam je, vendar trenutno ne moremo klicati. Poskusite znova zagnati aplikacijo.",
     invitationSent: "Povabilo poslano",
     welcomeToOnScreen: "Dobrodošli na ONSCREEN!",
     weWillSendYouANotificationWhendisplayNameFromContactInstalls:
-        "`Prosimo, poskusite znova ali uporabite funkcijo Pozabljeno geslo za ponastavitev gesla. Če še nimate računa, se prijavite.`",
+        "Prosimo, poskusite znova ali uporabite funkcijo Pozabljeno geslo za ponastavitev gesla. Če še nimate računa, se prijavite.",
     pleaseTryAgainOrUseTheForgotPassword:
         "Prosimo, poskusite znova ali uporabite funkcijo Pozabljeno geslo za ponastavitev gesla. Če še nimate računa, se prijavite.",
     youveBeenInvitedBydinamicLinkNameCaller:
-        "`{{dinamicLinkNameCaller}} vas je povabil, da se pridružite ONSCREEN. Prijavite se, da ga pokličete na ONSCREEN.",
+        "{{dinamicLinkNameCaller}} vas je povabil, da se pridružite ONSCREEN. Prijavite se, da ga pokličete na ONSCREEN.",
     unableToConnectCall:
         "Klica ni mogoče vzpostaviti. Prosim poskusite ponovno.",
     oldPassword: "Staro geslo",
@@ -537,7 +538,7 @@ export default {
     ourDiagnosticsShowDownloadSpeed:
         "Naši diagnostični podatki kažejo, da je vaša hitrost internetne povezave za prenos {{deviceBandwidthDownKbps}}Kbps prenizka za kakovosten video klic. Prosimo, da se obrnete na vašega internetnega ponudnika in zaprosite za povečanje vaše hitrosti prenosa.",
     pleaseAllowCameraAndMicrophonePermissions:
-        "Prosimo, dovolite{'\n'}dostop do kamere in mikrofona.",
+        "Prosimo, dovolite\ndostop do kamere in mikrofona.",
     whatsYourName: "Kako vam je ime?",
     tvHDMISetup: "Nastavitev HDMI za TV",
     portAlreadySelected: "Ta vhod je že izbran",
@@ -585,7 +586,7 @@ export default {
     emailProblem: "Težava z e-pošto",
     passwordProblem: "Težava z geslom",
     soOthersCanSeeHearYourVideo:
-        "tako, da vas drugi lahko vidijo in slišijo med vašimi video klici.{'\n\n'}Prosimo, kliknite Dovoli{'\n'}na pojavnem oknu.",
+        "tako, da vas drugi lahko vidijo in slišijo med vašimi video klici.\n\nProsimo, kliknite Dovoli\nna pojavnem oknu.",
     dontGiveAccessToYourMicCamera:
         "Če ne dovolite dostopa do vašega mikrofona ali kamere, ne boste mogli opravljati video klicev, kar je v nasprotju z namenom ONSCREEN. Prosimo, dovolite uporabo za nadaljevanje...",
     pleaseAllowCameraPermissions: "Prosimo, dovolite dovoljenja za kamero",
@@ -595,22 +596,22 @@ export default {
     pleaseAllowMicPermissions: "Prosimo, dovolite dovoljenja za mikrofon",
     makingACallIsEasy:
         "Klicanje je enostavno, neposredno iz imenika v vašem telefonu.",
-    pleaseClickAllowPop: "Prosimo, kliknite Dovoli{'\n'}na pojavnem oknu.",
+    pleaseClickAllowPop: "Prosimo, kliknite Dovoli\nna pojavnem oknu.",
     youDeniedPermissionPleaseAccept:
         "Zavrnili ste dovoljenje. Prosimo, sprejmite dovoljenje iz nastavitev za nadaljevanje.",
     toLetYouKnowPeopleAreCalling:
-        "da vas obvesti, ko vas kdo kliče.{'\n\n'}Prosimo, kliknite Dovoli{'\n'}na pojavnem oknu.",
+        "da vas obvesti, ko vas kdo kliče.\nProsimo, kliknite Dovoli\nna pojavnem oknu.",
     ifYouDontAllowNotifications:
         "Če ne dovolite obvestil, ne boste mogli prejeti klicev. Prosimo, dovolite obvestila za nadaljevanje...",
     pleaseAllowNotificationPermissions:
         "Prosimo, dovolite dovoljenja za obvestila",
     withoutAllowingNotificationPermissions:
         "Brez dovoljenja za obvestila, ne boste mogli prejeti klicev. Prosimo, pojdite v Nastavitve in omogočite dovoljenja za obvestila.\n\nŽelite iti v Nastavitve zdaj?",
-    letsGetStartedONSCREEN: "Začnimo z ONSCREEN.{'\n'}Kaj bi radi storili?",
+    letsGetStartedONSCREEN: "Začnimo z ONSCREEN.\nKaj bi radi storili?",
     useTheONSCREENApp: "Uporabite aplikacijo ONSCREEN brez TV-ja",
-    readyToSetup: "Pripravljeni za nastavitev{'\n'}vašega Sparka?",
+    readyToSetup: "Pripravljeni za nastavitev\nvašega Sparka?",
     haventSetUpTheSparkHardwareYetInstruction:
-        "Še niste nastavili strojne opreme Spark?{'\n'}Kliknite tukaj za navodila.",
+        "Še niste nastavili strojne opreme Spark?\nKliknite tukaj za navodila.",
     pleaseEnterYourWiFi: "Prosimo, vnesite ime vašega WiFi omrežja",
     yourCurrentNetwork5Ghz:
         "Vaše trenutno omrežje izgleda kot omrežje 5Ghz, ki ne bodo delovala z Spark. Prosimo, izberite drugo omrežje na vašem telefonu ali ga vnesite ročno.",
@@ -696,4 +697,63 @@ export default {
     joinAZoom: "Pridružite se sestanku Zoom",
     toHostAMeeting:
         "Če želite začeti sestanek,\nprosimo, uporabite Začni sestanek.",
-};
+    usingApp: "Uporabljate aplikacijo za klice, ker nimate Spark",
+    learnSpark: 'Izvedite več o Sparku',
+    useMobile: "Uporabi mobilno aplikacijo za klice",
+    iosHeader: "Prosim izberite",
+    deviceUnavailable: ' (ni na voljo)',
+    use: 'Uporabi ',
+    forCalls: ' za klice',
+    profile: 'Profil',
+    help: 'Pomoč',
+    caregiver: 'Negovalka',
+    male: 'moški',
+    female: 'ženska',
+    select: 'Izberite',
+    notProvided: 'Raje ne povem',
+    enterEmail: 'Prosimo, vnesite e-poštni naslov.',
+    enterValidEmail: 'Prosimo, vnesite veljaven e-poštni naslov.',
+    enterPassword: 'Prosimo, vnesite vaše geslo.',
+    enterOldPassword: 'Prosimo, vnesite staro geslo.',
+    enterNewPassword: 'Prosimo, vnesite novo geslo.',
+    confirmNewPassword: 'Prosimo, potrdite novo geslo.',
+    enterFirstName: 'Prosimo, vnesite ime.',
+    enterLastName: 'Prosimo, vnesite priimek.',
+    enterWifiPassword: 'Prosimo, vnesite geslo za wifi.',
+    enterMobileNumber: 'Prosimo, vnesite svojo mobilno številko.',
+    enterValidNumber: 'Prosimo, vnesite veljavno mobilno številko.',
+    caregiverMode: "S starejšim in njihovim televizorjem",
+    myselfMode: "Zase na mojem TV-ju",
+    withoutTVMode: "Uporaba aplikacije brez TV-ja",
+    callStateNone: 'Zagon...',
+    callStateCalling: 'Klicanje ...',
+    callStateConnecting: 'Povezovanje ...',
+    callStateAnswering:'Povezovanje...',
+    callStateConnected:'Povezan',
+    callStateDisconnecting:'Povezava prekinjena',
+    callStateCancelled:'Preklicano',
+    callStateCountdown:'Odgovarjam ...',
+    otherParty: 'Druga stranka samodejno sprejema',
+    inAbout: ' v približno ',
+    seconds: '  sekunde',
+    privacyNotice: '... prikazano je obvestilo o zasebnosti.',
+    noPhoneNumbers: 'Brez telefonskih številk',
+    noPhoneNumbersFound: 'Nismo našli nobene telefonske številke za ',
+    isNotUsing: "še ne uporablja ONSCREEN, zato jih še ni mogoče dodati v Priljubljene.  Bi jih povabili?",
+    doNotSwitch: 'Ne preklopi',
+    videoFreezing: "Video je zamrznil",
+    videoLowQuality: "Video je bil nizke kakovosti",
+    videoBlack: "Ni videa videa", 
+    audioChoppy: "Zvok je bil prekinjen ali slabe kakovosti",
+    audioEcho: "Avdio je imel odmev",
+    settingsFor: 'Nastavitve za ',
+    dailyUpdateSchedule: 'Urnik dnevnih posodobitev',
+    sun: 'NED',
+    mon: 'PON',
+    tue: 'TOR',
+    wed: 'SRE',
+    thu: 'ČET',
+    fri: 'PET',
+    sat: 'SOB'
+  };
+  
