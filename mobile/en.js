@@ -274,9 +274,8 @@ export default {
   isConnected: 'is connected!',
   nowLetsCheckTheSettingsAndSet:
     "Now let's check the Settings and set the TV HDMI ports and Auto-Answer options to ensure the TV switches to the calls when they come in.",
-
   whenYoureReadyToCallYourLovedOne:
-    "When you're ready to call your loved one, you simply click here.  Try it at the end of this tour",
+    "When you're ready to call your loved one, you simply click here. Try it at the end of this tour",
   callActiveOnSpark: 'Call Active on ONSCREEN Device',
   loadingVideo: 'Loading Video...',
   exitPlayer: 'Exit Player',
@@ -618,7 +617,7 @@ export default {
   pleaseReviewImportantSettings:
     'Please review these important settings, especially the TV HDMI ports, in order to ensure proper switching of inputs on your TV.',
   inOrderMakeTVTurnsOn:
-    "In order to make sure that the TV turns on and switches to the video call, go through this setup here.  Let's go there now.'",
+    "In order to make sure that the TV turns on and switches to the video call, go through this setup here.  Let's go there now.",
   setupTVHDMIPorts: 'Setup TV HDMI Ports',
   enableEasyMode: 'Enable Easy Mode',
   aSimplifiedHomeScreen:

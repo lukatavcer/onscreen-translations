@@ -73,30 +73,30 @@ export default {
     continueToStep2: "Nadaljuj na 2. korak",
     skip: "Preskoči",
     youCanPlugInYourCableBoxSateliteOrOtherTVHDMI:
-        "Svoj kabelski sprejemnik, satelit ali drug TV vhod HDMI lahko priključite neposredno v napravo ONSCREEN z uporabo vrat HDMI IN. To zagotavlja najpreprostejšo rešitev za preklapljanje med vsebino ONSCREEN in TV vsebino.",
+        "Svoj kabelski sprejemnik, satelit ali drug TV HDMI vhod lahko priključite neposredno v napravo ONSCREEN z uporabo vrat HDMI IN. To zagotavlja najpreprostejšo rešitev za preklapljanje med vsebino ONSCREEN in TV vsebino.",
     didYouPlugYourCurrentTVSource:
         "Ali ste svoj trenutni TV-vir priključili na vrata HDMI IN",
     no: "Ne",
     yes: "da",
     whatHDMIPortShouldWeSwitchToAtTheEndOfaCall:
-        "Na katera vrata HDMI naj preklopimo ob koncu klica?",
+        "Na kateri HDMI vhod naj preklopimo ob koncu klica?",
     thisIsUsuallyYourCableBoxSetTopBox:
         "To je običajno vaš kabelski sprejemnik, televizijski sprejemnik ali drug vhod, ki ga pogosto gledate.",
     selectYourTVPort: "Izberite svoj TV vhod",
     imUsingATunerOrAntenna: "Uporabljam sprejemnik ali anteno",
     letsTestSwitchingToYourTV: "Preizkusimo preklop na vaš TV:",
-    trySwitchingToTV: "Poskusite preklopiti na TV",
+    trySwitchingToTV: "Poskusite preklop na TV",
     continueToStep3: "Nadaljuj na 3. korak",
     finallyWhatHDMIPort:
-        "Končno, na kateri vhod HDMI je priključen ONSCREEN Spark?",
+        "Na kateri HDMI vhod je priključen ONSCREEN Spark?",
     thisIsTheHDMIPortThatYouPlugged:
-        "To so vhod HDMI, v katerega ste priključili svojo novo napravo",
+        "To je HDMI vhod, na katerega ste priključili našo novo napravo",
     selectYourSparkPort: "Izberite svoj Spark vhod",
     letTestSwitchingToYourSpark: "Preizkusimo preklop na vaš Spark:",
-    trySwitchingToSpark: "Poskusite preklopiti na Spark",
+    trySwitchingToSpark: "Poskusite preklop na Spark",
     finish: "Dokončaj",
     weMakeItEasyForYourSparkAndTVToWorkTogether:
-        "Olajšamo sodelovanje vašega Spark in TV-ja.",
+        "Poenostavili bomo sodelovanje vašega Sparka in TV-ja.",
     letsGoThrough3SimpleSteps: "Pojdimo skozi 3 preproste korake:",
     firstLetsTestIfWeCanTurnTheTVOff:
         "Najprej preizkusimo, ali lahko televizor izklopimo in vklopimo s pritiskom spodnjih gumbov.",
@@ -203,10 +203,10 @@ export default {
     callAFavorite: "Pokliči priljubljenega",
     addAFavorite: "Dodaj priljubljenega",
     youCanTurnOffEasyModeUnderProfile:
-        "Lahko izklopite enostaven način pod profilom.",
+        "Enostaven način lahko izklopite na zavihku Profil.",
     favorites: "Priljubljeni",
     addFriendsAndFamilyThatCanCall:
-        "Dodajte prijatelje in družino, ki lahko kličejo",
+        "K priljubljenim dodajte prijatelje in družino, ki lahko kličejo",
     getStartedByAddingSome:
         "Dodajte nekaj posebnih ljudi, ki jih lahko pokličete enostavno.",
     invitedFavorites: "Povabljeni priljubljeni",
@@ -239,7 +239,7 @@ export default {
     ifYouNeedToMakeChangesToThisList:
         "Če želite urejati osebe na tem seznamu, se obrnite na našo ekipo za podporo",
     goBack: "Nazaj",
-    youAreTheCaregiverOf: "Vi ste oskrbovalec",
+    youAreTheCaregiverOf: "Ste oskrbovalec",
     settings: "Nastavitve",
     pleaseProvideUsTheBasicInfo:
         "Prosimo, navedite nam osnovne informacije o osebi, za katero nastavljate to.",
@@ -277,9 +277,9 @@ export default {
         "Ne boste več mogli uporabljati te naprave.",
     isConnected: "je povezan!",
     nowLetsCheckTheSettingsAndSet:
-        "Zdaj preverimo nastavitve in nastavimo HDMI vhod televizorja in možnosti avtomatskega odziva, da se televizor preklopi na klice, ko pridejo.",
+        "Zdaj bomo preverili nastavitve avtomatskega odziva in nastavili HDMI vhod TV-ja, da se bo ob prihajajočem klicu avtomatsko preklopil.",
     whenYoureReadyToCallYourLovedOne:
-        "Ko ste pripravljeni klicati vašo ljubljeno osebo, preprosto kliknite tukaj. Poskusite to na koncu tega vodiča",
+        "Će želite poklicati vašo ljubljeno osebo, kliknite tukaj. To lahko poskusite na koncu tega vodiča.",
     callActiveOnSpark: "Klic aktiven na Sparku",
     loadingVideo: "Nalaganje videa...",
     exitPlayer: "Izhod iz predvajalnika",
@@ -287,7 +287,7 @@ export default {
     dailyUpdate: "Dnevne posodobitve",
     setup: "Nastavitve",
     noVideosHaveBeenRecordedYetUseTheSetup:
-        "Posnetih ni bilo še nobenih videoposnetkov. Uporabite možnost Nastavitve, da nastavite dan in čas za dnevne posodobitve. Pritisnite tukaj za več informacij.",
+        "Posnetih ni bilo še nobenih videoposnetkov. Kliknite gumb Nastavitve, da nastavite dan in čas dnevnih posodobitev. Pritisnite tukaj za več informacij.",
     selectTheDaysAndTimeForTheDailyUpdate:
         'Izberite dneve in čas za Dnevne posodobitve in pritisnite "Shrani". Pritisnite tukaj za pomoč.',
     time: "Čas",
@@ -297,10 +297,10 @@ export default {
         "Pred predlogom za snemanje Dnevnih posodobitev predvajajte izbran seznam video predvajanj YouTube za vašo ljubljeno osebo. Izberite eno v razdelku Deli YouTube video.",
     recordingLength: "Dolžina videa",
     theDurationInSecondsForTheRecording:
-        "Trajanje v sekundah za video, največ 5 minut.",
+        "Trajanje videa v sekundah, največ 5 minut.",
     countdownDuration: "Trajanje odštevanja",
     thisIsHowLongTheNoticeThatRecording:
-        "To je koliko časa bo prikazano obvestilo, da se snemanje začenja, da se lahko pripravite.",
+        "Koliko časa bo prikazano obvestilo, da se snemanje začenja, da se lahko pripravite.",
     recordingPrompt: "Predlog za snemanje",
     howAreYouFeeling: "Kako se počutiš?",
     thisIsWhatWillBeDisplayedOnTheScreen:
@@ -341,9 +341,9 @@ export default {
     accountNowTapOnTheirName:
         "račun. Zdaj pritisnite na njihovo ime, da nadaljujete nastavitev.",
     welcomeToONSCREEN:
-        "Dobrodošli v ONSCREEN!\n\nNa hitro vam bomo predstavili delovanje naše aplikacije.\n\nKliknite gumb NAPREJ za ogled naslednjega koraka ali PRESKOČI, da ga preskočite.",
+        "Dobrodošli v ONSCREEN!\n\nNa hitro vam bomo predstavili delovanje naše aplikacije.\n\nKliknite gumb Naprej za ogled naslednjega koraka ali Preskoči, da ga preskočite.",
     nowLetsCheckTheSettings:
-        "Zdaj preverimo nastavitve in nastavimo vhod HDMI televizorja in možnost, da se televizor avtomatsko preklopi na klice, ko pridejo.",
+        "Zdaj preverimo nastavitve in nastavimo HDMI vhod televizorja in možnost, da se televizor avtomatsko preklopi na klice, ko pridejo.",
     whenYoureReadyToCall:
         "Kliknite tukaj, ko želite poklicati vašo ljubljeno osebo. Poskusite to na koncu tega ogleda.",
     youCanAddOtherFriendsAndFamily:
@@ -376,7 +376,7 @@ export default {
         "Prosimo, dovolite dovoljenje za lokacijo za pridobitev trenutnega imena WiFi.",
     pleaseConnectToAWiFi: "Prosimo, za ta postopek se povežite z omrežjem WiFi",
     sKIPToBypassIt:
-        "Dobrodošli v ONSCREEN!\n\nZdaj vam bomo pokazali hiter ogled vseh pomembnih delov naše aplikacije.\n\nKliknite gumb NAPREJ za ogled naslednjega koraka ali PRESKOČI, da ga preskočite.",
+        "Dobrodošli v ONSCREEN!\n\nZdaj vam bomo pokazali hiter ogled vseh pomembnih delov naše aplikacije.\n\nKliknite gumb Naprej za ogled naslednjega koraka ali Preskoči, da ga preskočite.",
     youCanAddOtherFriends:
         "Dodate lahko tudi druge prijatelje in družinske člane ",
     onTheCaregiverScreenPlaceCall:
@@ -395,7 +395,7 @@ export default {
     youAreAboutToDelete:
         "Izbrisali boste {{month}} ' '{{hours}}. Tega dejanja ni mogoče razveljaviti. Ali ste prepričani?",
     theDailyUpdateFeatureLetsYouReceiveRecordings:
-        'Funkcija Dnevne posodobitve omogoča prejemanje posnetkov vaše ljubljene osebe. Najprej nastavite urnik, kdaj naj se zgodi dnevna posodobitev. Takrat bo vaša ljubljena oseba pozvana, da odgovori na vprašanje "Kako se počutite?" na TV in posnet bo 30 sekundni video. Posnetek boste običajno prejeli nekaj minut kasneje.',
+        'Funkcija Dnevne posodobitve omogoča prejemanje dnevnih posnetkov vaše ljubljene osebe. Najprej nastavite urnik snemanja dnevnih posodobitev. Takrat bo vaša ljubljena oseba pozvana, da odgovori na vprašanje "Kako se počutite?" na TV in posnet bo 30 sekundni video. Posnetek boste običajno prejeli nekaj minut kasneje.',
     thereAreNoPresetPlaylistVideos:
         "Ni prednastavljenih videoposnetkov na seznamu predvajanja.",
     setAsPlaylist: "Nastavi kot seznam predvajanja",
@@ -558,8 +558,8 @@ export default {
     didYouPlugYourCurrentTV:
         "Ste vstavili trenutni vir TV v HDMI vhod na napravi ONSCREEN?",
     thisIsUsuallyYourCableBox:
-        "To je običajno vaš kabelski sprejemnik ali drug vnos, ki ga pogosto gledate.",
-    thisIsTheHDMIPort: "To je HDMI vhod, v katerega ste vstavili novo napravo.",
+        "To je običajno vaš kabelski sprejemnik ali drug TV vhod, ki ga pogosto gledate.",
+    thisIsTheHDMIPort: "To je HDMI vhod, na katerega ste vklopili našo novo napravo.",
     didTheTVTurnOn: "Se je TV vklopil?",
     thisMayTakeUpTo30Seconds: "To lahko traja do 30 sekund.",
     didTheTVTurnOff: "Se je TV ugasnil?",
@@ -624,14 +624,14 @@ export default {
     pleaseReviewImportantSettings:
         "Prosimo, preglejte te pomembne nastavitve, zlasti HDMI vhod TV-ja, da zagotovite pravilno preklopanje vhodov na vašem TV-ju.",
     inOrderMakeTVTurnsOn:
-        "Da se prepričate, da se TV vklopi in preklopi na video klic, pojdite skozi nastavitev tukaj. Pojdimo tja zdaj.'",
+        "Z naslednjo nastavitvijo se prepričajte, da se TV vklopi in preklopi na video klic. Preverimo nastavitev zdaj.",
     setupTVHDMIPorts: "Nastavitev HDMI vrat TV-ja",
     enableEasyMode: "Omogoči enostaven način",
     aSimplifiedHomeScreen:
         "Preprost domači zaslon za naše starejše uporabnike, da lahko enostavneje kličejo najpomembnejše osebe.",
     enableAutoAnswerfromFavorites: "Omogoči avtomatski odziv iz priljubljenih",
     toAutoAnswerSchedule:
-        "Da nastavite urnik avtomatskega odziva, kliknite tukaj. Nastavite lahko, kateri dnevi v tednu in katere ure je omogočen urnik avtomatskega odziva. To zagotavlja vašim bližnjim zasebnost, da prejemajo klice le v tem času.",
+        "Kliknite tukaj, da nastavite urnik avtomatskega odziva. Nastavite lahko, katere dneve in ure v tednu bo avtomatski odziv omogočen. To vašim bližnjim zagotavlja zasebnost, da klice prejemajo le v tem času.",
     autoAnswerSchedule: "Urnik avtomatskega odziva",
     alwaysOn: "Vedno vklopljeno",
     enablesSparkAutomatically:
@@ -706,7 +706,7 @@ export default {
     forCalls: ' za klice',
     profile: 'Profil',
     help: 'Pomoč',
-    caregiver: 'Negovalka',
+    caregiver: 'Negovalec',
     male: 'moški',
     female: 'ženska',
     select: 'Izberite',
