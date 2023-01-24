@@ -43,11 +43,11 @@ export default {
     restartOnboarding: "Ponovni zagon vkrcanja",
     testCrash: "Preizkusno zrušitev",
     dontLookHere: "Ne glej sem ...",
-    tapHereForMoreInfo: "Tapnite tukaj za več informacij",
+    tapHereForMoreInfo: "Pritisnite tukaj za več informacij",
     callAContact: "Pokliči stik",
     pleaseAllowNotifications:
-        "Prosimo, dovolite obvestila, če želite prejemati klice. Tapnite tukaj, da posodobite nastavitve.",
-    letStartACall: "Začnite klic!",
+        "Prosimo, dovolite obvestila, če želite prejemati klice. pritisnite tukaj, da posodobite nastavitve.",
+    letStartACall: "Pokličite bližnjega!",
     joinZoomMeeting: "Pridruži se sestanku Zoom",
     useZoom: "Uporabi povečavo",
     pleaseAllow: "Prosim dovolite",
@@ -162,7 +162,7 @@ export default {
         " Preglejte zaslon za najboljše omrežje, ki je na voljo.",
     continueWithWiFi: "Nadaljujte z WiFi",
     imUsingAnEthernetCable: "Uporabljam kabel Ethernet",
-    alreadyHaveAnAccount: "Že imate račun?",
+    alreadyHaveAnAccount: "Že imate račun? ",
     meetingCode: "Koda sestanka",
     meetingPassword: "Geslo sestanka",
     enterYourZoomCredentialsToStartAMeeting:
@@ -208,12 +208,12 @@ export default {
     addFriendsAndFamilyThatCanCall:
         "Dodajte prijatelje in družino, ki lahko kličejo",
     getStartedByAddingSome:
-        "Začnite tako, da dodate nekaj posebnih ljudi, ki jih lahko kličete enostavno",
+        "Dodajte nekaj posebnih ljudi, ki jih lahko pokličete enostavno.",
     invitedFavorites: "Povabljeni priljubljeni",
     answerOnMobileApp: "Odgovori na mobilni aplikaciji",
     answer: "Odgovori",
     recentCalls: "Nedavni klici",
-    makeACallToGetStarted: "Naredi klic, da začneš z uporabo.",
+    makeACallToGetStarted: "Začnite z uporabo, tako da pokličete bližnjega.",
     wereVerySorryToHearThat: "Zelo nam je žal, da slišimo to.",
     whatWentWrong: "Kaj je šlo narobe?",
     pleaseProvideAnyOtherHelpfulDetails:
@@ -230,14 +230,14 @@ export default {
     endTime: "Končni čas",
     addAnotherLovedOne: "Dodaj drugega ljubljenega",
     addNewUser: "Dodaj novega uporabnika",
-    call: "Klic",
+    call: "Pokliči",
     now: "Zdaj",
     toAZoomMeeting: "na Zoom sestanek",
     join: "Pridruži se",
     youAreTheCaregiverOfMultiplePeople:
         "Ste oskrbovalec več ljudi. Prosimo, izberite s kom se želite povezati:",
     ifYouNeedToMakeChangesToThisList:
-        "Če potrebujete narediti spremembe na tem seznamu, se obrnite na našo ekipo za podporo",
+        "Če želite urejati osebe na tem seznamu, se obrnite na našo ekipo za podporo",
     goBack: "Nazaj",
     youAreTheCaregiverOf: "Vi ste oskrbovalec",
     settings: "Nastavitve",
@@ -287,9 +287,9 @@ export default {
     dailyUpdate: "Dnevne posodobitve",
     setup: "Nastavitve",
     noVideosHaveBeenRecordedYetUseTheSetup:
-        "Posnetih ni bilo še nobenih videoposnetkov. Uporabite možnost Nastavitve, da nastavite dan in čas za dnevne posodobitve. Tapnite tukaj za več informacij.",
+        "Posnetih ni bilo še nobenih videoposnetkov. Uporabite možnost Nastavitve, da nastavite dan in čas za dnevne posodobitve. Pritisnite tukaj za več informacij.",
     selectTheDaysAndTimeForTheDailyUpdate:
-        'Izberite dneve in čas za Dnevne posodobitve in tapnite "Shrani". Tapnite tukaj za pomoč.',
+        'Izberite dneve in čas za Dnevne posodobitve in pritisnite "Shrani". Pritisnite tukaj za pomoč.',
     time: "Čas",
     additionalOptions: "Dodatne možnosti",
     shareYouTubeVideoAtStart: "Deli YouTube video ob začetku",
@@ -311,7 +311,7 @@ export default {
     pasteTheURLoftheplaylistyouCopiedfromtheYouTubeapp:
         "Vstavite URL seznama predvajanja, ki ste ga kopirali iz aplikacije YouTube.",
     shareAYouTubePlaylistToSendVideos:
-        "Deli YouTube seznam predvajanja, da pošljete videoposnetke neposredno na televizor vaše ljubljene osebe. Tapnite tukaj za več informacij.",
+        "Deli YouTube seznam predvajanja, da pošljete videoposnetke neposredno na televizor vaše ljubljene osebe. Pritisnite tukaj za več informacij.",
     yourPlaylistIsSetUpAndReadyToPlay:
         "Vaš seznam predvajanja je nastavljen in pripravljen za predvajanje",
     yourPlaylistIsPlaying: "Vaš seznam predvajanja se predvaja.",
@@ -339,9 +339,9 @@ export default {
     newUserCreated: "Ustvarjen nov uporabnik",
     congratsYouCreated: "Čestitamo, ustvarili ste ",
     accountNowTapOnTheirName:
-        "račun. Zdaj tapnite na njihovo ime, da nadaljujete nastavitev.",
+        "račun. Zdaj pritisnite na njihovo ime, da nadaljujete nastavitev.",
     welcomeToONSCREEN:
-        "Dobrodošli v ONSCREEN!\n\nZdaj vam bomo pokazali hiter ogled vseh pomembnih delov naše aplikacije.\n\nSamo kliknite gumb NAPREJ za napredovanje ali PRESKOČI, da ta korak preskočite.",
+        "Dobrodošli v ONSCREEN!\n\nNa hitro vam bomo predstavili delovanje naše aplikacije.\n\nKliknite gumb NAPREJ za ogled naslednjega koraka ali PRESKOČI, da ga preskočite.",
     nowLetsCheckTheSettings:
         "Zdaj preverimo nastavitve in nastavimo vhod HDMI televizorja in možnost, da se televizor avtomatsko preklopi na klice, ko pridejo.",
     whenYoureReadyToCall:
@@ -349,13 +349,13 @@ export default {
     youCanAddOtherFriendsAndFamily:
         "Lahko dodate druge prijatelje in družinske člane, da jih lahko dosežete",
     withAutoAnswer:
-        " z avtomatskim odzivom.\n\nPreprosto tapnite povezavo Dodaj, ko je ogled končan.",
+        " z avtomatskim odzivom.\n\nPritisnite gumb Dodaj, ko se ta vodič konča.",
     thisIsOnlyAList: "To je samo seznam",
     onTheCaregiverScreen:
         "Na zaslonu Skrbnika navedemo samo priljubljene, ki so jim bili dodeljeni",
     toPlaceACall: "Za klic uporabite zaslon Domov",
     setUpTheDailyUpdate:
-        "Funkcijo Dnevnih posodobitev nastavite tako, da tapnete povezavo Nastavitve.",
+        "Funkcijo Dnevnih posodobitev nastavite tako, da pritisnete gumb Nastavitve.",
     sendYouTubeVideos: "Pošljite YouTube videoposnetke ",
     forHealthFitnessEntertainment:
         "za zdravje, fitnes, zabavo in vključevanje.",
@@ -376,13 +376,13 @@ export default {
         "Prosimo, dovolite dovoljenje za lokacijo za pridobitev trenutnega imena WiFi.",
     pleaseConnectToAWiFi: "Prosimo, za ta postopek se povežite z omrežjem WiFi",
     sKIPToBypassIt:
-        "Dobrodošli v ONSCREEN!\n\nZdaj vam bomo pokazali hiter ogled vseh pomembnih delov naše aplikacije.\n\nSamo kliknite gumb NAPREJ za napredovanje ali PRESKOČI, da ta korak preskočite.",
+        "Dobrodošli v ONSCREEN!\n\nZdaj vam bomo pokazali hiter ogled vseh pomembnih delov naše aplikacije.\n\nKliknite gumb NAPREJ za ogled naslednjega koraka ali PRESKOČI, da ga preskočite.",
     youCanAddOtherFriends:
-        "Lahko dodate tudi druge prijatelje in družinske člane",
+        "Dodate lahko tudi druge prijatelje in družinske člane ",
     onTheCaregiverScreenPlaceCall:
         "Na zaslonu Skrbnika navedemo samo priljubljene, ki so jim bili dodeljeni {{careReceiverFirst}}. Za klic uporabite zaslon Dom.",
     sendYoutubeVideosTo:
-        "Pošlji YouTube videoposnetke na {{careReceiverFirst}} za namene zdravja, telesne pripravljenosti, zabave in sodelovanja.",
+        "{{careReceiverFirst}} lahko pošljete YouTube videoposnetke z vsebino o zdravju, telesni pripravljenosti ali, zabave.",
     callProblem: "Težava s klicem",
     weCouldNotInitiateACall:
         "Trenutno ni mogoče vzpostaviti klica. Oprostite, poskusite znova pozneje.",
@@ -402,7 +402,7 @@ export default {
     watchOnMyMobileDevice: "Ogled na moji mobilni napravi",
     youTubeVideoSharing: "Deljenje videoposnetkov z YouTube",
     useSetupLink:
-        "Uporabite povezavo za nastavitev, da nastavite seznam predvajanja iz YouTuba. Pojdite v aplikacijo YouTube, poiščite seznam predvajanja za skupno rabo, tapnite gumb Skupna raba in Kopiraj povezavo. Nato prilepite povezavo znotraj polja, ki ga ponuja gumb Nastavitev.",
+        "Uporabite povezavo za nastavitev, da nastavite seznam predvajanja iz YouTuba. Pojdite v aplikacijo YouTube, poiščite seznam predvajanja za skupno rabo, pritisnite gumb Skupna raba in Kopiraj povezavo. Nato prilepite povezavo znotraj polja, ki ga ponuja gumb Nastavitev.",
     waitingTheHostToAdmit: "'Čakanje, da vas gostitelj sprejme na sestanek.",
     meetingDisconnected: "SESTANEK PREKINJEN",
     reconnecting: "Ponovno povezovanje ...",
@@ -619,16 +619,16 @@ export default {
     joinZoom: "PRIDRUŽI SE NA ZOOM",
     logout: "Odjava?",
     areYouSureLogout:
-        "Ste prepričani, da se želite odjaviti? Če se odjavite, ne boste mogli prejeti klicev.",
+        "Ste prepričani, da se želite odjaviti? Če se odjavite, ne boste dosegljivi za klice.",
     errorOccurredlogout: "Prišlo je do napake pri odjavi",
     pleaseReviewImportantSettings:
         "Prosimo, preglejte te pomembne nastavitve, zlasti HDMI vhod TV-ja, da zagotovite pravilno preklopanje vhodov na vašem TV-ju.",
     inOrderMakeTVTurnsOn:
         "Da se prepričate, da se TV vklopi in preklopi na video klic, pojdite skozi nastavitev tukaj. Pojdimo tja zdaj.'",
     setupTVHDMIPorts: "Nastavitev HDMI vrat TV-ja",
-    enableEasyMode: "Omogoči Enostaven Način",
+    enableEasyMode: "Omogoči enostaven način",
     aSimplifiedHomeScreen:
-        "Preprost domači zaslon za naše starejše uporabnike, da je enostavno klicati najpomembnejše osebe",
+        "Preprost domači zaslon za naše starejše uporabnike, da lahko enostavneje kličejo najpomembnejše osebe.",
     enableAutoAnswerfromFavorites: "Omogoči avtomatski odziv iz priljubljenih",
     toAutoAnswerSchedule:
         "Da nastavite urnik avtomatskega odziva, kliknite tukaj. Nastavite lahko, kateri dnevi v tednu in katere ure je omogočen urnik avtomatskega odziva. To zagotavlja vašim bližnjim zasebnost, da prejemajo klice le v tem času.",
@@ -697,7 +697,7 @@ export default {
     joinAZoom: "Pridružite se sestanku Zoom",
     toHostAMeeting:
         "Če želite začeti sestanek,\nprosimo, uporabite Začni sestanek.",
-    usingApp: "Uporabljate aplikacijo za klice, ker nimate Spark",
+    usingApp: "Ker nimate Sparka, uporabljate aplikacijo za klicanje.",
     learnSpark: 'Izvedite več o Sparku',
     useMobile: "Uporabi mobilno aplikacijo za klice",
     iosHeader: "Prosim izberite",
@@ -722,8 +722,8 @@ export default {
     enterWifiPassword: 'Prosimo, vnesite geslo za wifi.',
     enterMobileNumber: 'Prosimo, vnesite svojo mobilno številko.',
     enterValidNumber: 'Prosimo, vnesite veljavno mobilno številko.',
-    caregiverMode: "S starejšim in njihovim televizorjem",
-    myselfMode: "Zase na mojem TV-ju",
+    caregiverMode: "S starejšim in njegovim TV-jem",
+    myselfMode: "Zase na svojem TV-ju",
     withoutTVMode: "Uporaba aplikacije brez TV-ja",
     callStateNone: 'Zagon...',
     callStateCalling: 'Klicanje ...',

@@ -163,7 +163,7 @@ export default {
   continueWithWiFi: 'Continue with WiFi',
   imUsingAnEthernetCable: "I'm using an Ethernet cable",
 
-  alreadyHaveAnAccount: 'Already have an account?',
+  alreadyHaveAnAccount: 'Already have an account? ',
   meetingCode: 'Meeting Code',
   meetingPassword: 'Meeting Password',
   enterYourZoomCredentialsToStartAMeeting:
@@ -375,7 +375,7 @@ export default {
   sKIPToBypassIt:
     'Welcome to ONSCREEN!\n\nWe will now show you a quick tour of all the important parts of our app.\n\nJust click the NEXT button to advance, or SKIP to bypass it.',
   youCanAddOtherFriends:
-    'You can add other friends and family to be able to reach',
+    'You can add other friends and family to be able to reach ',
   onTheCaregiverScreenPlaceCall:
     'On the Caregiver screen, we only list the Favorites that have been assigned to {{careReceiverFirst}} To place a call, please use the Home screen.',
   sendYoutubeVideosTo:
