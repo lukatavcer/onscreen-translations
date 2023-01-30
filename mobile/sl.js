@@ -754,6 +754,17 @@ export default {
     wed: 'SRE',
     thu: 'ČET',
     fri: 'PET',
-    sat: 'SOB'
+    sat: 'SOB',
+    noBoost: 'Brez pospeševanja (privzeto)',
+    mildBoost: 'Blago povečanje',
+    medBoost: 'Srednje povečanje',
+    maxBoost: 'Največja okrepitev',
+    favoritesArePeople: 
+    "Priljubljene so osebe, od katerih ste sprejeli povabilo ali so bile dodane iz vaših stikov. Za klic se preprosto dotaknite.",
+    emailInUse: 'Ta e-poštni naslov je že v uporabi!',
+    emailInvalid: 'Ta e-poštni naslov ni veljaven!.',
+    weakPassword: 'Vaše geslo ni dovolj močno.',
+    tooManyRequests: 'Preveč zahtev. Poskusi znova čez minuto.',
+    internetError: 'Prosimo, preverite internetno povezavo.',
   };
   
