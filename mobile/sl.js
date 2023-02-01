@@ -739,7 +739,7 @@ export default {
     privacyNotice: '... prikazano je obvestilo o zasebnosti.',
     noPhoneNumbers: 'Brez telefonskih številk',
     noPhoneNumbersFound: 'Nismo našli nobene telefonske številke za ',
-    isNotUsing: "še ne uporablja ONSCREEN, zato jih še ni mogoče dodati v Priljubljene.  Bi jih povabili?",
+    isNotUsing: "še ne uporablja ONSCREEN, zato ga ni mogoče dodati med priljubljene. Ga želiš povabiti zdaj?",
     doNotSwitch: 'Ne preklopi',
     videoFreezing: "Video je zamrznil",
     videoLowQuality: "Video je bil nizke kakovosti",
