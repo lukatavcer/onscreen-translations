@@ -4,6 +4,10 @@
 ## Bugs
 
 ### CAREGIVER TAB
+0) weekday names in the "Daily Updates" settings section time select input also has English locale
+    - Select time -> "Izberi čas"
+    - Cancel -> "Prekliči"
+    - Confirm -> Potrdi
 1) "recentCalls" this section has time since the call in English, probably just a missing locale for the datetime plugin, example: "Yesterday at 2:58 PM" + "Missed" is not translated.
 2) Registration email is in English
 3) The name of the person in the Favorites section ("Luka's Priljubljeni" -> "Priljubljeni stiki osebe Žiga")
@@ -14,7 +18,8 @@
     - Are you sure? -> "Ali ste prepričani, da želite odstraniti povabilo?"
     - Cancel -> "Prekliči"
 7)  weekday names in the "selectDatesToEnableAutoAnswer" settings section are not translated
-
+8) Somewhere in the popup buttons I found "Finish" button text, but now I can't find it anymore
+    Finish -> "Zaključi"
 
 ## ŽAN & LUKA notes
 
