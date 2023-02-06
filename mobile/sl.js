@@ -30,7 +30,7 @@ export default {
     sparkVersion: "Različica Spark:",
     onscreenVersion: "ONSCREEN različica:",
     nerdStats: "Statistika za piflarje",
-    setupHDMIPorts: "Nastavitev vrat HDMI",
+    setupHDMIPorts: "Nastavitev HDMI vhodov",
     inviteAUserToThisSpark: "Povabi uporabnika v ta Spark",
     resetSpark: "Ponastavi Spark",
     youCanNowGoBackToTheHomeScreenAndMakeCalls:
@@ -73,9 +73,9 @@ export default {
     continueToStep2: "Nadaljuj na 2. korak",
     skip: "Preskoči",
     youCanPlugInYourCableBoxSateliteOrOtherTVHDMI:
-        "Svoj kabelski sprejemnik, satelit ali drug TV HDMI vhod lahko priključite neposredno v napravo ONSCREEN z uporabo vrat HDMI IN. To zagotavlja najpreprostejšo rešitev za preklapljanje med vsebino ONSCREEN in TV vsebino.",
+        "Svoj kabelski sprejemnik, satelit ali drug TV HDMI vhod lahko priključite neposredno v napravo ONSCREEN z uporabo HDMI IN vhoda. To zagotavlja najpreprostejšo rešitev za preklapljanje med vsebino ONSCREEN in TV vsebino.",
     didYouPlugYourCurrentTVSource:
-        "Ali ste svoj trenutni TV-vir priključili na vrata HDMI IN",
+        "Ali ste svoj trenutni TV-vir priključili na vhod HDMI IN",
     no: "Ne",
     yes: "da",
     whatHDMIPortShouldWeSwitchToAtTheEndOfaCall:
@@ -112,9 +112,9 @@ export default {
     startMeeting: "Začni sestanek",
     welcomeTo: "Dobrodošli pri",
     zoom: "Povečava",
-    joinMeeting: "Pridruži se srečanju",
-    weNeedYouToAllow: "Potrebujemo, da dovolite",
-    cameraAndMicPermission: "Dovoljenje za kamero in mikrofon",
+    joinMeeting: "Pridruži se sestanku",
+    weNeedYouToAllow: "Potrebujemo vaše",
+    cameraAndMicPermission: "dovoljenje za kamero in mikrofon",
     soOthersCanSeeAndHearYouDuringYourVideoCalls:
         "da vas lahko drugi vidijo in slišijo med vašimi video klici.",
     pleaseClickAllow: "Prosimo pritisnite Dovolim",
@@ -134,7 +134,7 @@ export default {
     youAreAllSet: "Vse je nastavljeno.",
     youAreJustFewStepsAway:
         "Le nekaj korakov vas loči od izkušnje odličnih funkcij aplikacije.",
-    notificationPermission: "Dovoljenje za obvestila",
+    notificationPermission: "dovoljenje za obvestila",
     toLetYouKnowWhenPeopleAreCallingYou: "da vas obvestimo, ko vas kdo kliče.",
     ifYouDontAllowNotificationsYouWont:
         "Če ne dovolite obvestil, ne boste prejemali klicev. Prosim, da dovolite dostop za nadaljevanje...",
@@ -279,7 +279,7 @@ export default {
     nowLetsCheckTheSettingsAndSet:
         "Zdaj bomo preverili nastavitve avtomatskega odziva in nastavili HDMI vhod TV-ja, da se bo ob prihajajočem klicu avtomatsko preklopil.",
     whenYoureReadyToCallYourLovedOne:
-        "Će želite poklicati vašo ljubljeno osebo, kliknite tukaj. To lahko poskusite na koncu tega vodiča.",
+        "Če želite poklicati vašo ljubljeno osebo, kliknite tukaj. To lahko poskusite na koncu tega vodiča.",
     callActiveOnSpark: "Klic aktiven na Sparku",
     loadingVideo: "Nalaganje videa...",
     exitPlayer: "Izhod iz predvajalnika",
@@ -415,11 +415,11 @@ export default {
     userNotExist: "Uporabnik ne obstaja.",
     startMeetingFailed: "Začetek sestanka ni uspel.",
     joinMeetingFailed: "Pridružitev sestanku ni uspela.",
-    meetingIncorrectNumber: "Napačna številka srečanja.",
-    meetingTimeout: "Časovna omejitev srečanja",
-    meetingNetworkUnreachable: "Omrežje za srečanja ni na voljo.",
-    meetingNetworkError: "Napaka omrežja srečanja.",
-    meetingClientIncompatible: "Odjemalec srečanja ni združljiv.",
+    meetingIncorrectNumber: "Napačna številka sestanka.",
+    meetingTimeout: "Časovna omejitev sestanka",
+    meetingNetworkUnreachable: "Omrežje za sestanek ni na voljo.",
+    meetingNetworkError: "Napaka omrežja sestanka.",
+    meetingClientIncompatible: "Odjemalec sestanka ni združljiv.",
     sdkIntialization: "Napaka pri inicializaciji SDK.",
     deviceInUse: "Naprava v uporabi.",
     youAreUnableToRejoin:
@@ -438,7 +438,7 @@ export default {
         "Pokličimo se prek ONSCREEN. Kliknite tukaj, da dobite aplikacijo in se prijavite:{{dynamicLink}} Če že imate aplikacijo, se prijavite.",
     yourMeetingCodeIsTooShort:
         "Vaša koda sestanka je prekratka. Vnesite kodo sestanka dolgo med 9 in 11 znakov.",
-    pleaseEnterTheMeetingCode: "Prosimo, vnesite kodo srečanja.",
+    pleaseEnterTheMeetingCode: "Prosimo, vnesite kodo sestanka.",
     yourMeetingCodeIsTooLong:
         "Vaša koda sestanka je predolga. Vnesite kodo sestanka dolgo med 9 in 11 znaki.",
     yourMeetingCodeIncludesInvalidCharacters:
@@ -567,7 +567,7 @@ export default {
     didTheTVSwitchToTVInput: "Se je TV preklopil na vaš TV?",
     aNoteAboutTunersOrAntennas: "Opomba o sprejemnikih ali antenah.",
     weCurrentlyDontSupportSwitching:
-        "Trenutno podpiramo samo preklopanja na HDMI vrata, zato boste po klicu Sparka morali ročno preklopiti na vaš Vmesnik ali Anteno s pomočjo daljinskega upravljalnika vašega TV-ja.",
+        "Trenutno podpiramo samo preklopanja na HDMI vhode, zato boste po klicu Sparka morali ročno preklopiti na vaš Vmesnik ali Anteno s pomočjo daljinskega upravljalnika vašega TV-ja.",
     ohNo: "Oh ne!",
     wereSorryToHearThatPleaseCheckTV:
         "Žal nam je za to. Prosim preverite nastavitve vašega TV-ja, da se prepričate, da je HDMI-CEC vklopljen, ali pa se obrnite na našo podporo za pomoč.",
@@ -600,7 +600,7 @@ export default {
     youDeniedPermissionPleaseAccept:
         "Zavrnili ste dovoljenje. Prosimo, sprejmite dovoljenje iz nastavitev za nadaljevanje.",
     toLetYouKnowPeopleAreCalling:
-        "da vas obvesti, ko vas kdo kliče.\nProsimo, kliknite Dovoli\nna pojavnem oknu.",
+        "da boste lahko videli, ko vas kdo kliče.\nProsimo, kliknite Dovoli\nna pojavnem oknu.",
     ifYouDontAllowNotifications:
         "Če ne dovolite obvestil, ne boste mogli prejeti klicev. Prosimo, dovolite obvestila za nadaljevanje...",
     pleaseAllowNotificationPermissions:
@@ -625,7 +625,7 @@ export default {
         "Prosimo, preglejte te pomembne nastavitve, zlasti HDMI vhod TV-ja, da zagotovite pravilno preklopanje vhodov na vašem TV-ju.",
     inOrderMakeTVTurnsOn:
         "Z naslednjo nastavitvijo se prepričajte, da se TV vklopi in preklopi na video klic. Preverimo nastavitev zdaj.",
-    setupTVHDMIPorts: "Nastavitev HDMI vrat TV-ja",
+    setupTVHDMIPorts: "Nastavitev HDMI vhodov TV-ja",
     enableEasyMode: "Omogoči enostaven način",
     aSimplifiedHomeScreen:
         "Preprost domači zaslon za naše starejše uporabnike, da lahko enostavneje kličejo najpomembnejše osebe.",
