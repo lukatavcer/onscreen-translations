@@ -669,6 +669,10 @@ export default {
         "Rad bi te povabil na video klic z uporabo ONSCREEN! Klikni tukaj, da namestiš aplikacijo: {{dynamicLink}} ",
     imUsingONSCREENForEasyVideoCalls:
         "Zdravo! Uporabljam ONSCREEN za enostavne video klice na mojem TV-ju.\n\nPridruži se mi, da malo poklepetama..\n\nKlikni tukaj, da namestiš aplikacijo: {{dynamicLink}}",
+    letsUseOnscreen:
+        'Nastavimo ONSCREEN za video klice na mojem televizorju',
+    letsUseOnscreenForCaregiver:
+        'Uporabimo ON SCREEN za video klice z {{careReceiverFirstName}}',
     thisWillResetYourDevice:
         "S tem boste ponastavili uporabniški račun in omrežne nastavitve naprave.\n\nOdklopili boste tudi vse uporabnike, ki ste jih povabili na napravo.\n\nPonovno se boste morali povezati z vašo QR kodo.",
     errorOccurred: "Prišlo je do napake:",
@@ -766,5 +770,10 @@ export default {
     weakPassword: 'Vaše geslo ni dovolj močno.',
     tooManyRequests: 'Preveč zahtev. Poskusi znova čez minuto.',
     internetError: 'Prosimo, preverite internetno povezavo.',
-  };
-  
+    tvSpeakers: 'TV zvočniki (privzeto)',
+    internalSpeakers: 'notranji zvočniki (lahko pomagajo pri odmevu)',
+    tvSettings: 'TV nastavitve',
+    autoAnswer: 'Samodejni odgovor',
+    showMore: 'Pokaži več',
+    showLess: 'Pokaži manj'
+};

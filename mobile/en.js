@@ -1,3 +1,5 @@
+const productName = "ONSCREEN";
+
 export default {
   signIn: 'SIGN IN',
   signup: 'SIGN UP',
@@ -7,32 +9,32 @@ export default {
   existingUser: 'Existing users',
   logIn: 'Log In',
   forgotPassword: 'Forgot password?',
-  onScreenSpark: 'ONSCREEN Device',
+  onScreenSpark: productName,
   installationInstructions: 'Installation Instructions',
   close: 'Close',
   email: 'Email',
   callEnded: 'Call Ended',
   howWasYourCall: 'How was your call?',
   decline: 'DECLINE',
-  checkingYourSpark: 'Checking for ONSCREEN Device ...',
+  checkingYourSpark: 'Checking for ' + productName + '...',
   answerNow: 'ANSWER NOW',
   backToWifiSettings: 'Back to WiFi settings',
   continue: 'Continue',
   enterNewWifiInfo: 'Enter new Wifi Info',
   disconnect: 'Disconnect',
   name: 'Name:',
-  nameYourSpark: 'Name your ONSCREEN Device',
+  nameYourSpark: 'Name your ' + productName + '',
   wifiNetworkName: 'Wifi Network Name:',
   signalStrength: 'Signal Strength:',
   signalQuality: 'Signal Quality:',
   ping: 'Ping:',
   lastHeartbeat: 'Last Heartbeat:',
-  sparkVersion: 'ONSCREEN Device Version:',
-  onscreenVersion: 'ONSCREEN Version:',
+  sparkVersion: '' + productName + ' Version:',
+  onscreenVersion: 'ONSCREEN App Version:',
   nerdStats: 'Nerd Stats',
   setupHDMIPorts: 'Setup HDMI Ports',
-  inviteAUserToThisSpark: 'Invite a User to this ONSCREEN Device',
-  resetSpark: 'Reset ONSCREEN Device',
+  inviteAUserToThisSpark: 'Invite another user to this ' + productName + '',
+  resetSpark: 'Reset ' + productName + ' device',
   youCanNowGoBackToTheHomeScreenAndMakeCalls:
     'You can now go back to the Home screen and make calls.',
   showDebugOptions: 'Show Debug Options',
@@ -42,12 +44,12 @@ export default {
   sendHangUp: 'Send Hangup',
   restartOnboarding: 'Restart Onboarding',
   testCrash: 'Test Crash',
-  dontLookHere: "Don't look here...",
+  dontLookHere: 'Don\'t look here...',
   tapHereForMoreInfo: 'Tap here for more info',
   callAContact: 'Call a Contact',
   pleaseAllowNotifications:
     'Please allow Notifications in order to receive calls.  Tap here to update your settings.',
-  letStartACall: "Let's start a call!",
+  letStartACall: 'Let\'s start a call!',
   joinZoomMeeting: 'Join Zoom Meeting',
   useZoom: 'Use Zoom',
   pleaseAllow: 'Please allow',
@@ -57,15 +59,15 @@ export default {
   send: 'Send',
   remove: 'Remove',
   newPasswordMustBeDifferent:
-    'Your new password must be different from Previous password.',
+    'Your new password must be different from previous password.',
   save: 'Save',
   deleteAccountDescription:
-    'Deleting your account will delete all of you data on the platform including all your personal details, call history, saved ONSCREEN Devices and Favorites.',
+    'Deleting your account will delete all of you data on the platform including all your personal details, call history, saved ' + productName + ' devices and Favorites.',
   deleteAccount: 'Delete Account',
   keepAccount: 'Keep Account',
   update: 'Update',
   noWorriesEnterYourEmail:
-    "No worries! Enter your email, and we'll send you  instructions to retrieve it.",
+    'No worries! Enter your email, and we\'ll send you  instructions to retrieve it.',
   onscreen: 'ONSCREEN',
   pinchToZoom: 'Pinch to zoom',
   turnTVOFF: 'Turn TV OFF',
@@ -73,7 +75,7 @@ export default {
   continueToStep2: 'Continue to Step 2',
   skip: 'Skip',
   youCanPlugInYourCableBoxSateliteOrOtherTVHDMI:
-    'You can plug in your cable box, satelite or other TV HDMI input directly into the ONSCREEN device, using the HDMI IN port.  This provides the easiest solution to switch between ONSCREEN content and TV content.',
+    'You can plug in your cable box, satelite or other TV HDMI input directly into the ' + productName + ' device, using the HDMI IN port. This provides the easiest solution to switch between ' + productName + ' content and TV content.',
   didYouPlugYourCurrentTVSource:
     'Did you plug your current TV source into the HDMI IN port',
   no: 'No',
@@ -83,29 +85,27 @@ export default {
   thisIsUsuallyYourCableBoxSetTopBox:
     'This is usually your cable box, set-top box, or other input that you frequently watch.',
   selectYourTVPort: 'Select your TV port',
-  imUsingATunerOrAntenna: "I'm using a Tuner or Antenna",
-  letsTestSwitchingToYourTV: "Let's test switching to your TV:",
+  imUsingATunerOrAntenna: 'I\'m using a Tuner or Antenna',
+  letsTestSwitchingToYourTV: 'Let\'s test switching to your TV:',
   trySwitchingToTV: 'Try Switching to TV',
   continueToStep3: 'Continue to Step 3',
   finallyWhatHDMIPort:
-    'Finally, what HDMI port is the ONSCREEN Device pluggedinto?',
+    'Finally, what HDMI port is the ' + productName + ' device plugged into?',
   thisIsTheHDMIPortThatYouPlugged:
-    'This is the HDMI port that you plugged your new device into',
-  selectYourSparkPort: 'Select your ONSCREEN Device port',
-  letTestSwitchingToYourSpark: "Let's test switching to your ONSCREEN Device:",
-  trySwitchingToSpark: 'Try Switching to ONSCREEN Device',
+    'This is the HDMI port that you plugged your new ' + productName + ' device into',
+  selectYourSparkPort: 'Select your ' + productName + ' device port',
+  letTestSwitchingToYourSpark: 'Let\'s test switching to your ' + productName + ':',
+  trySwitchingToSpark: 'Try Switching to ' + productName,
   finish: 'Finish',
   weMakeItEasyForYourSparkAndTVToWorkTogether:
-    'We make it easy for your ONSCREEN Device and TV to work together.',
+    'We make it easy for your ' + productName + ' device and TV to work together.',
   letsGoThrough3SimpleSteps: "Let's go through 3 simple steps:",
   firstLetsTestIfWeCanTurnTheTVOff:
     "First, let's test if we can turn the TV off and on by tapping the buttons below.",
-  learnAboutTheSpark: 'Learn about the ONSCREEN Device',
-  usingAppForCallsSinceYouDontHaveASpark:
-    "Using App for calls, since you don't have an ONSCREEN Device.",
+  learnAboutTheSpark: 'Learn about ' + productName + '.',
   familyShare: 'Family Share',
   youCanShareYourSparkDeviceWithAnotherHousehold:
-    'You can share your ONSCREEN Device with another household member. Simply invite them by providing their email address below.',
+    'You can share your ' + productName + ' with another household member. Simply invite them by providing their email address below.',
   invite: 'Invite',
   waiting: '- Waiting',
   accepted: '- Accepted',
@@ -120,17 +120,17 @@ export default {
   pleaseClickAllow: 'Please click Allow',
   onThePopUp: 'on the pop-up',
   ifYouDontGiveAccessToYourMicOrCamera:
-    'If you don’t give access to your Mic or Camera, you won’t be able to make video calls, which defeats the purpose of ONSCREEN Please Allow to continue…',
+    'If you don\'t give access to your Mic or Camera, you won\'t be able to make video calls, which defeats the purpose of ONSCREEN. Please Allow to continue…',
   weAreAboutToAskFor: 'We are about to ask for',
   contactsPermission: 'Contacts Permission',
   makingACallIsEasyDirectly:
-    "Making a call is easy, directly from your phone's Contacts.",
+    'Making a call is easy, directly from your phone\'s Contacts.',
   weNeverSendYourAddressBook:
-    "We never send your address book to any servers, and don't share your data with any other companies.",
+    'We never send your address book to any servers, and don\'t share your data with any other companies.',
   ifYouDontGiveAccessToYourContacts:
-    'If you don’t give access to your Contacts, you won’t be able to make calls to anyone, which defeats the purpose of ONSCREEN.  Please Allow to continue…',
+    'If you don\'t give access to your Contacts, you won’t be able to make calls to anyone, which defeats the purpose of ONSCREEN.  Please Allow to continue…',
   setupIsComplete: 'Setup is complete.',
-  letsgetstarted: "Let's get started!",
+  letsgetstarted: 'Let\'s get started!',
   youAreAllSet: 'You are all set.',
   youAreJustFewStepsAway:
     'You are just few steps away from experiencing the great features of the app.',
@@ -138,30 +138,30 @@ export default {
   toLetYouKnowWhenPeopleAreCallingYou:
     'to let you know when people are calling you.',
   ifYouDontAllowNotificationsYouWont:
-    'If you don’t allow notifications, you won’t be able to receive calls. Please Allow to continue…',
-  letsGetStartedWithONSCREEN: "Let's get started with ONSCREEN.",
+    'If you don\'t allow notifications, you won\'t be able to receive calls. Please Allow to continue...',
+  letsGetStartedWithONSCREEN: 'Let\'s get started with ONSCREEN.',
   whatWouldYouLikeToDo: 'What would you like to do?',
   setUpAsACaregiver: 'Set up as a Caregiver',
   forASenior: 'for a senior',
-  setUpONSCREENSpark: 'Set up ONSCREEN Device',
+  setUpONSCREENSpark: 'Set up ' + productName,
   forYourself: 'for yourself',
   useTheONSCREENAppWithoutATV: 'Use the ONSCREEN App without a TV',
   notSureWhichToChoose: 'Not sure which to choose?',
   readyToSetUp: 'Ready to set up',
-  yourSpark: 'your ONSCREEN Device?',
+  yourSpark: 'Your ' + productName,
   thisIsTheRightPathWhenSettingUpANewSpark:
-    "This is the right path when setting up a new ONSCREEN Device for yourselfto be able to make and receive video calls on your TV.  If you're trying to set up the ONSCREEN Device for someone else, like a senior in your family, please use the Caregiver Tab.",
+    'This is the right path when setting up a new ' + productName + ' device for yourself to be able to make and receive video calls on your TV.  If you\'re trying to set up the ' + productName + ' for someone else, like a senior in your family, please use the Caregiver Tab.',
   importantPleaseMakeSureYouHaveTheCorrect:
     ' Important: Please make sure you have the correct WiFi information available.',
   startSetup: 'Start Setup',
-  haventSetUpTheSparkHardwareYet: "Haven't set up the ONSCREEN Device yet?",
+  haventSetUpTheSparkHardwareYet: 'Haven\'t set up the ' + productName + ' yet?',
   tapHereForInstructions: 'Tap here for instructions.',
   letsConnectYourONSCREENSparkToYourWiFiNetwork:
-    "Let's connect your ONSCREEN Device to your WiFi network.",
+    'Let\'s connect your ' + productName + ' to your WiFi network.',
   lookAtTheScreenForTheBestAvailableNetworks:
-    ' Look at the screen for the best available networks.',
+    'Look at the screen for the best available networks.',
   continueWithWiFi: 'Continue with WiFi',
-  imUsingAnEthernetCable: "I'm using an Ethernet cable",
+  imUsingAnEthernetCable: 'I\'m using an Ethernet cable',
   alreadyHaveAnAccount: 'Already have an account? ',
   meetingCode: 'Meeting Code',
   meetingPassword: 'Meeting Password',
@@ -199,7 +199,7 @@ export default {
   enterAnEmail: 'Enter an email address...',
   add: 'Add',
   thisWillSearchTheONSCREENUser:
-    "This will search the ONSCREEN user database for this email address.  If they're not registered, you can invite them.",
+    "This will search ONSCREEN for this email address.  If they're not registered, you can invite them.",
   callAFavorite: 'Call a Favorite',
   addAFavorite: 'Add a Favorite',
   youCanTurnOffEasyModeUnderProfile:
@@ -213,7 +213,7 @@ export default {
   answer: 'Answer',
   recentCalls: 'Recent Calls',
   makeACallToGetStarted: 'Make a call to get started.',
-  wereVerySorryToHearThat: "We're very sorry to hear that.",
+  wereVerySorryToHearThat: 'We\'re very sorry to hear that.',
   whatWentWrong: 'What went wrong?',
   pleaseProvideAnyOtherHelpfulDetails:
     'Please provide any other helpful details...',
@@ -247,12 +247,12 @@ export default {
   chooseAPassword: 'Choose a Password',
   success: 'Success!',
   yourNewUserIsReadyToGoLetsConnect:
-    "Your new user is ready to go.  Let's connect them to the new ONSCREEN Device",
-  readyToSetUpASparkForSomeoneElse: 'Ready to set up an ONSCREEN Device for someone else?',
+    'Your new user is ready to go.  Let\'s connect them to the new ' + productName + ' device.',
+  readyToSetUpASparkForSomeoneElse: 'Ready to set up an ' + productName + ' device for someone else?',
   thisIsTheRightPathWhenSettingUp:
     'This is the right path when setting up for an older adult, or a friend. You will be creating an account for them, and setting up the WiFi.',
   letsSetUpTheWiFi: "Let's set up the WiFi",
-  spark: 'ONSCREEN Device',
+  spark: productName,
   for: 'for',
   lookOnTheTVScreenToFindTheStrongest:
     'Look on the TV screen to find the strongest network available. Enter the WiFi Name and Password below.',
@@ -274,10 +274,10 @@ export default {
     'You will no longer be able to use this device.',
   isConnected: 'is connected!',
   nowLetsCheckTheSettingsAndSet:
-    "Now let's check the Settings and set the TV HDMI ports and Auto-Answer options to ensure the TV switches to the calls when they come in.",
+    'Now let\'s check the Settings and set the TV HDMI ports and Auto-Answer options to ensure the TV switches to the calls when they come in.',
   whenYoureReadyToCallYourLovedOne:
-    "When you're ready to call your loved one, you simply click here. Try it at the end of this tour",
-  callActiveOnSpark: 'Call Active on ONSCREEN Device',
+    'When you\'re ready to call your loved one, you simply click here. Try it at the end of this tour',
+  callActiveOnSpark: 'Call Active on ' + productName + '',
   loadingVideo: 'Loading Video...',
   exitPlayer: 'Exit Player',
   maximizeVideoToEnterLandscapeMode: 'Maximize video to enter landscape mode',
@@ -326,9 +326,9 @@ export default {
   sendChatMessage: 'Send chat message',
   signOutOfZoom: 'Sign Out of Zoom',
   zoomRequiresUsingASparkPlease:
-    'Zoom requires using an ONSCREEN Device. Please select one from the Home screen.',
+    'Zoom requires using an ' + productName + ' device. Please select one from the Home screen.',
   dontHaveASparkEnjoyYourZoom:
-    "Don't have an ONSCREEN Device? Enjoy your Zoom calls and meetings on your TV.",
+    'Don\'t have an ' + productName + ' device? Enjoy your Zoom calls and meetings on your TV.',
   learnMore: 'Learn more',
   joinAMeeting: 'Join a Meeting',
   joinSomeoneElsesMeeting: "Join someone else's meeting.",
@@ -336,17 +336,15 @@ export default {
     'Zoom account required.You will be taken to log in to your Zoom account.',
   startAMeetingOnYourAccount: 'Start a Meeting on your account.',
   newUserCreated: 'New user created',
-  congratsYouCreated: "Congrats, you've created ",
+  congratsYouCreated: 'Congrats, you\'ve created ',
   accountNowTapOnTheirName:
     's account.  Now tap on their name to continue the setup.',
   welcomeToONSCREEN:
-    'Welcome to ONSCREEN!\n\nWe will now show you a quick tour of all the important parts of our app.\n\nJust click the NEXT button to advance, or SKIP to bypass it.',
+    'Welcome to ONSCREEN!\n\nWe will now show you a quick tour of all the important parts of our app.',
   nowLetsCheckTheSettings:
-    "Now let's check the Settings and set the TV HDMI ports and Auto-Answer options to ensure the TV switches to the calls when they come in.",
+    'Now let\'s check the Settings and set the TV HDMI ports and Auto-Answer options to ensure the TV switches to the calls when they come in.',
   whenYoureReadyToCall:
-    "When you're ready to call your loved one, you simply click here.  Try it at the end of this tour.",
-  youCanAddOtherFriendsAndFamily:
-    'You can add other friends and family to be able to reach',
+    'When you\'re ready to call your loved one, you simply click here.  Try it at the end of this tour.',
   withAutoAnswer:
     ' with Auto-Answer.\n\nSimply tap the Add link once the tour is finished.',
   thisIsOnlyAList: 'This is only a list',
@@ -359,14 +357,14 @@ export default {
   forHealthFitnessEntertainment:
     'for health, fitness, entertainment and engagement purposes.',
   creating: 'Creating...',
-  wereSorryAnError: "We're sorry, an error occurred creating the new user",
+  wereSorryAnError: 'We\'re sorry, an error occurred creating the new user',
   youCanTryAgainLater: 'You can try again later or contact our support team',
   thisEmailIsAlreadyInUse:
     'This email is already in use.  Please log in with your existing account, or use the Forgot Password feature to retrieve your credentials.',
   excellent: 'Excellent',
   oKButMightBeSpotty: 'OK, but might be spotty at times',
   notAdequateForVideoCalls:
-    'Not adequate for video calls.  Please move the ONSCREEN Device closer to your wifi router, or move the router closer to the ONSCREEN Device.',
+    'Not adequate for video calls.  Please move the ' + productName + ' device closer to your wifi router, or vice versa.',
   couldNotDeterminePleaseWait:
     'Could not determine, please wait a little bit or check your Wifi connection',
   pleaseAllowLocationPermission:
@@ -375,7 +373,7 @@ export default {
   sKIPToBypassIt:
     'Welcome to ONSCREEN!\n\nWe will now show you a quick tour of all the important parts of our app.\n\nJust click the NEXT button to advance, or SKIP to bypass it.',
   youCanAddOtherFriends:
-    'You can add other friends and family to be able to reach ',
+    'You can add other family members or friends to be able to reach ',
   onTheCaregiverScreenPlaceCall:
     'On the Caregiver screen, we only list the Favorites that have been assigned to {{careReceiverFirst}} To place a call, please use the Home screen.',
   sendYoutubeVideosTo:
@@ -388,9 +386,9 @@ export default {
   weWillNowSendATextMessageToYourContact:
     'We will now send a text message to your contact so they can register for ONSCREEN and be able to have a call with you.',
   wereSorryThereWasAnError:
-    "We're sorry, there was an error trying to play that video.",
+    'We\'re sorry, there was an error trying to play that video.',
   youAreAboutToDelete:
-    "You are about to delete {{month}} {{hours}} This cannot be undone. Are you sure?",
+    'You are about to delete {{month}} {{hours}} This cannot be undone. Are you sure?',
   theDailyUpdateFeatureLetsYouReceiveRecordings:
     'The Daily Update feature lets you receive recordings of your loved one. First, you set the schedule of when the Daily Update should occur. Then, at that time, your loved one will be prompted to answer How are you feeling? on the TV, and a 30 second recording will be made. You will receive the recording usually a few minutes later.',
   thereAreNoPresetPlaylistVideos: 'There are no preset playlist videos.',
@@ -422,8 +420,8 @@ export default {
     'You are unable to rejoin this meeting because you where previosly removed by the host.',
   yourZoomAccount: 'Your ZOOM Account already has a meeting going on.',
   wereSorryErrorHasOccured:
-    "We're sorry, an error has occurred trying to join this meeting.  Please try again or contact the meeting host.",
-  oopsThatDidnotWork: "Oops, that didn't work",
+    'We\'re sorry, an error has occurred trying to join this meeting.  Please try again or contact the meeting host.',
+  oopsThatDidnotWork: 'Oops, that didn\'t work',
   weCouldNotGetYourZoomCredential:
     'We could not get your Zoom credentials.  Please try again.',
   yourZoomAccountCredentialsHaveSuccessfully:
@@ -431,7 +429,7 @@ export default {
   weCouldNotSignYouOut: 'We could not sign you out, please contact support.',
   possibleConnectionProblem: 'Possible Connection Problem',
   letsHaveACallViaOnScreen:
-    "Let's have a call via ONSCREEN. Click here to get the app and sign up:{{dynamicLink}}  If you already have the app, please log in.",
+    'Let\'s have a call via ONSCREEN. Click here to get the app and sign up:{{dynamicLink}}  If you already have the app, please log in.',
   yourMeetingCodeIsTooShort:
     'Your meeting code is too short.  Please provide a meeting code between 9 and 11 characters.',
   pleaseEnterTheMeetingCode: 'Please enter the meeting code.',
@@ -451,7 +449,7 @@ export default {
   lastName: 'Last Name',
   phoneNumber: 'Phone Number',
   weSendYouALink:
-    'We’ll send you a link. Please check your email to reset your password.',
+    'We\'ll send you a link. Please check your email to reset your password.',
   hangUpOptions: 'Hang Up Options',
   pleaseChooseHowYouWouldLikeToEnd:
     'Please choose how you would like to end the call.',
@@ -470,36 +468,36 @@ export default {
     'Oops... {{firstName}} is not currently logged in to ONSCREEN.  Send them a text message asking them to log in so you can call them.',
   somethingWentWrong: 'Something went wrong',
   wereSorryButWeCantPlaceACall:
-    "We're sorry, but we can't place a call right now.  Please try restarting the app.",
+    'We\'re sorry, but we can\'t place a call right now.  Please try restarting the app.',
   invitationSent: 'Invitation Sent',
   welcomeToOnScreen: 'Welcome to ONSCREEN!',
   weWillSendYouANotificationWhendisplayNameFromContactInstalls:
     'We will send you a notification when {{displayNameFormContact}} installs the app.',
   pleaseTryAgainOrUseTheForgotPassword:
-    "Please try again or use the Forgot Password feature to reset your password.  If you don't have an account, please sign up.",
+    'Please try again or use the Forgot Password feature to reset your password.  If you don\'t have an account, please sign up.',
   youveBeenInvitedBydinamicLinkNameCaller:
-    "You've been invited by {{dinamicLinkNameCaller}} to join ONSCREEN. Complete this sign-up to have a call with them on ONSCREEN.",
+    'You\'ve been invited by {{dinamicLinkNameCaller}} to join ONSCREEN. Complete this sign-up to have a call with them on ONSCREEN.',
   unableToConnectCall: 'Unable to connect call. Please try again.',
   oldPassword: 'Old Password',
   newPassword: 'New Password',
   confirmPassword: 'Confirm Password',
   changeLanguage: 'Change Language',
-  yourSparkIsConnected: 'Your ONSCREEN Device is connected!',
+  yourSparkIsConnected: 'Your ' + productName + ' device is connected!',
   holdThisUpToThe: 'Hold this up to the',
   camera: 'camera!',
-  sparkIsOffline: 'ONSCREEN Device is Offline',
-  sparkGuestUser: 'ONSCREEN Device - Guest User',
+  sparkIsOffline: '' + productName + ' device is Offline',
+  sparkGuestUser: '' + productName + ' - Guest User',
   nameWithValue: 'Name: {{name}}',
   editDeviceName: 'Edit Device Name',
   enterAEasilyRecognizable:
-    "Enter an easily recognizable name for your ONSCREEN Device, like 'Living Room' or 'Bedroom'.",
+    'Enter an easily recognizable name for your ' + productName + ' device, like \'Living Room\' or \'Bedroom\'.',
   wifiNetworkNameSSID: 'Wifi Network Name: {{SSID}}',
   signalStrengthDeviceSignal: 'Signal Strength: {{deviceSignalStrengthNum}}dB',
   signalQualityDeviceSignalStrength: 'Signal Quality: {{deviceSignalStrength}}',
   pingDevicePing: 'Ping: {{devicePing}} ms',
   lastHeartbeatLastCheckIn: 'Last Heartbeat: {{lastCheckIn}}',
-  sparkVersionDeviceVersion: 'ONSCREEN Device Version: {{deviceVersion}}',
-  oNSCREENVersionDeviceInfo: 'ONSCREEN Version: {{DeviceInfo}}',
+  sparkVersionDeviceVersion: productName + ' Device Version: {{deviceVersion}}',
+  oNSCREENVersionDeviceInfo: 'ONSCREEN App Version: {{DeviceInfo}}',
   hDMIPortSwitching: 'HDMI Port Switching',
   youCanNowGoBackToTheHome:
     'You can now go back to the Home screen and make calls.',
@@ -507,20 +505,20 @@ export default {
     'Last device checkin {{secSinceLastCheckin}} sec ago',
   congratulations: 'Congratulations',
   youveCompletedTheFirstPartOfTheSetup:
-    "You've completed the first part of the setup.  Now let's just take a minute to set the correct ports on the TV so that it correctly switches when calls come in.",
+    'You\'ve completed the first part of the setup.  Now let\'s just take a minute to set the correct ports on the TV so that it correctly switches when calls come in.',
   couldNotDeterminePleaseWaitALittleBit:
     'Could not determine, please wait a little bit or check your Wifi connection.',
-  sparkIsInUse: 'ONSCREEN Device is in use.',
+  sparkIsInUse: productName + ' device is in use.',
   someoneThatYoureSharingTheDevices:
-    "Someone that you're sharing the devices with is currently using it.  Please wait until it is available again.",
+    'Someone that you\'re sharing the devices with is currently using it.  Please wait until it is available again.',
   pleaseCheckYourDeviceToEnsure:
-    "Please check your device to ensure that it's powered on, and that it's connected to your network.",
-  yourSparkWifiSignal: 'Your ONSCREEN Device wifi signal is too weak for a call.',
+    'Please check your device to ensure that it\'s powered on, and that it\'s connected to your network.',
+  yourSparkWifiSignal: 'Your ' + productName + ' device\'s wifi signal is too weak for a call.',
   becauseOfYourWifiConnectionStrength:
-    'Because of your wifi connection strength, you will not be able to have a good video call experience.  Please try moving your router closer to the ONSCREEN Device device, or remove anything that might be blocking the wifi signal.\n\nVisit our Help section for more information.',
-  yourSparkWifiSignalIsALittleWeak: 'Your ONSCREEN Device wifi signal is a little weak.',
+    'Because of your wifi connection strength, you will not be able to have a good video call experience.  Please try moving your router closer to the ' + productName + ' device, or remove anything that might be blocking the wifi signal.\n\nVisit our Help section for more information.',
+  yourSparkWifiSignalIsALittleWeak: 'Your ' + productName + ' wifi signal is a little weak.',
   yourWifiConnectionStrengthIsWeak:
-    'Your wifi connection strength is weak, and may impact the quality of your video calls.  Please try moving your router closer to the ONSCREEN Device, or remove anything that might be blocking the wifi signal.\n\nVisit our Help section for more information.',
+    'Your wifi connection strength is weak, and may impact the quality of your video calls.  Please try moving your router closer to the ' + productName + ', or remove anything that might be blocking the wifi signal.\n\nVisit our Help section for more information.',
   yourInternetConnectionHasDelay: 'Your Internet connection has delay.',
   ourDiagnosticsShowThatYourInternetConnection:
     'Our diagnostics show that your Internet connection has a large delay, which may cause your calls to have lag.  Please contact your Internet provider and ask for help.\n\nVisit our Help section for more information.',
@@ -549,7 +547,7 @@ export default {
   forgotYourPassword: 'Forgot your password?',
   hangUp: 'Hang Up',
   didYouPlugYourCurrentTV:
-    'Did you plug your current TV source into the HDMI IN port of the ONSCREEN Device?',
+    'Did you plug your current TV source into the HDMI IN port of the ' + productName + '?',
   thisIsUsuallyYourCableBox:
     'This is usually your cable box, set-top box, or other input that you frequently watch.',
   thisIsTheHDMIPort:
@@ -557,20 +555,20 @@ export default {
   didTheTVTurnOn: 'Did the TV turn on?',
   thisMayTakeUpTo30Seconds: 'This may take up to 30 seconds.',
   didTheTVTurnOff: 'Did the TV turn off?',
-  didTheTVSwitchToTheSpark: 'Did the TV switch to the ONSCREEN Device?',
+  didTheTVSwitchToTheSpark: 'Did the TV switch to the ' + productName + '?',
   didTheTVSwitchToTVInput: 'Did the TV switch to your TV input?',
   aNoteAboutTunersOrAntennas: 'A Note About Tuners or Antennas',
   weCurrentlyDontSupportSwitching:
-    "We currently don't support switching to non-HDMI ports, so you will need to manually switch back to your Tuner or Antenna after ONSCREEN Device calls using your TV remote.",
+    'We currently don\'t support switching to non-HDMI ports, so you will need to manually switch back to your Tuner or Antenna after ' + productName + ' calls using your TV remote.',
   ohNo: 'Oh no!',
   wereSorryToHearThatPleaseCheckTV:
-    "We're sorry to hear that.  Please check your TV settings to make sure HDMI-CEC is turned on, or contact our customer support for help.",
+    'We\'re sorry to hear that.  Please check your TV settings to make sure HDMI-CEC is turned on, or contact our customer support for help.',
   contactSupportNow: 'Contact Support Now',
   showHelpArticle: 'Show Help Article',
   setUpComplete: 'Setup complete',
-  excellentWorkYoureSetUp: "Excellent work, you're all set up!",
-  youveBeenInvited: "You've been invited!",
-  friendsEmail: "Friend's Email",
+  excellentWorkYoureSetUp: 'Excellent work, you\'re all set up!',
+  youveBeenInvited: 'You\'ve been invited!',
+  friendsEmail: 'Friend\'s Email',
   waitingState: 'Waiting state',
   youWantToResendInvitation: 'You want to resend the invitation?',
   userNotFound: 'User not found',
@@ -580,7 +578,7 @@ export default {
   emailProblem: 'Email Problem',
   passwordProblem: 'Password Problem',
   soOthersCanSeeHearYourVideo:
-    "so others can see and hear you during your video calls.\n\nPlease click Allow\non the pop-up.",
+    'so others can see and hear you during your video calls.\n\nPlease click Allow\non the pop-up.',
   dontGiveAccessToYourMicCamera:
     'If you don’t give access to your Mic or Camera, you won’t be able to make video calls, which defeats the purpose of ONSCREEN.  Please Allow to continue…',
   pleaseAllowCameraPermissions: 'Please Allow Camera Permissions',
@@ -589,36 +587,36 @@ export default {
   noContinueWithoutPermission: 'No, continue without permission',
   pleaseAllowMicPermissions: 'Please Allow Mic Permissions',
   makingACallIsEasy:
-    "Making a call is easy, directly from your phone's Contacts.",
+    'Making a call is easy, directly from your phone\'s Contacts.',
   pleaseClickAllowPop: "Please click Allow\non the pop-up.",
   youDeniedPermissionPleaseAccept:
     'You denied the permission. Please accept the permission from settings to continue.',
   toLetYouKnowPeopleAreCalling:
-    "to let you know when people are calling you.\n\nPlease click Allow\non the pop-up.",
+    'to let you know when people are calling you.\n\nPlease click Allow\non the pop-up.',
   ifYouDontAllowNotifications:
-    'If you don’t allow notifications, you won’t be able to receive calls. Please Allow to continue…',
+    'If you don\'t allow notifications, you won\'t be able to receive calls. Please Allow to continue…',
   pleaseAllowNotificationPermissions: 'Please Allow Notification Permissions',
   withoutAllowingNotificationPermissions:
     'Without allowing notification permissions, you will not be able to receive calls.  Please go to Settings and enable Notification Permissions.\n\nDo you want to go to Settings now?',
   letsGetStartedONSCREEN:
-    "Let's get started with ONSCREEN.\nWhat would you like to do?",
+    'Let\'s get started with ONSCREEN.\nWhat would you like to do?',
   useTheONSCREENApp: 'Use the ONSCREEN App without a TV',
-  readyToSetup: "Ready to set up\nyour ONSCREEN Device?",
+  readyToSetup: 'Ready to set up\nyour ' + productName + '?',
   haventSetUpTheSparkHardwareYetInstruction:
-    "Haven't set up the ONSCREEN Device hardware yet?\nTap here for instructions.",
+    'Haven\'t set up the ' + productName + ' device yet?\nTap here for instructions.',
   pleaseEnterYourWiFi: 'Please enter your WiFi name',
   yourCurrentNetwork5Ghz:
-    "Your current network seems to be a 5Ghz network which won't work with the ONSCREEN Device.  Please choose a different network on your phone, or type it in manually.",
+    'Your current network seems to be a 5Ghz network which won\'t work with the ' + productName + '.  Please choose a different network on your phone, or type it in manually.',
   pleaseConnectToWiFi: 'Please connect to a WiFi network for this process.',
   joinZoom: 'JOIN ZOOM',
   logout: 'Log out?',
   areYouSureLogout:
-    "Are you sure you want to log out?  You won't be able to receive calls if you do.",
+    'Are you sure you want to log out?  You won\'t be able to receive calls if you do.',
   errorOccurredlogout: 'Error occurred on logout',
   pleaseReviewImportantSettings:
     'Please review these important settings, especially the TV HDMI ports, in order to ensure proper switching of inputs on your TV.',
   inOrderMakeTVTurnsOn:
-    "In order to make sure that the TV turns on and switches to the video call, go through this setup here.  Let's go there now.",
+    'In order to make sure that the TV turns on and switches to the video call, go through this setup here.  Let\'s go there now.',
   setupTVHDMIPorts: 'Setup TV HDMI Ports',
   enableEasyMode: 'Enable Easy Mode',
   aSimplifiedHomeScreen:
@@ -629,7 +627,7 @@ export default {
   autoAnswerSchedule: 'Auto-Answer Schedule',
   alwaysOn: 'Always On',
   enablesSparkAutomatically:
-    'Enables the ONSCREEN Device to automatically answer calls from your Favorites, after a 30 second delay.',
+    'Enables the ' + productName + ' device to automatically answer calls from your Favorites, after a 30 second delay.',
   increaseMicrophoneRecordingLevel: 'Increase Microphone Recording Levels',
   increaseVolumePlaybackLevel: 'Increase Volume Playback Level',
   audioOutput: 'Audio Output (Where should the sound come from?)',
@@ -643,7 +641,7 @@ export default {
   invalidMeetingCode:
     'Invalid Meeting Code. Please double check the meeting code and try again.',
   wereSorryAnErrorMeetingHost:
-    "We're sorry, an error has occurred trying to join this meeting.  Please try again or contact the meeting host.",
+    'We\'re sorry, an error has occurred trying to join this meeting.  Please try again or contact the meeting host.',
   calendarPermissionDenied: 'Calendar permission is denied',
   pleaseGoSettingAllowCalendar:
     'Please go to Settings and allow permission to the calendar.',
@@ -655,44 +653,48 @@ export default {
   readyToJoin: 'Ready to join?',
   sorryCouldNotReadMeeting: 'Sorry, could not read meeting info.',
   pleaseCheckInvitation:
-    "Please check the invitation to make sure it's properly formatted.",
+    'Please check the invitation to make sure it\'s properly formatted.',
   readyToVerbMeeting: 'Ready to {{verb}} this meeting?',
   imSettingUpEasyVideoCalls:
-    "Hi!  I'm setting up {{careReceiverFirstName}} for easy video calls on their TV using ONSCREEN. Click here to install the ONSCREEN app: {{dynamicLink}}",
+    'Hi!  I\'m setting up {{careReceiverFirstName}} for easy video calls on their TV using ONSCREEN. Click here to install the ONSCREEN app: {{dynamicLink}}',
   inviteYouToVideoCall:
     'I would like to invite you to a video call using ONSCREEN!  Click here to install the app: {{dynamicLink}} ',
   imUsingONSCREENForEasyVideoCalls:
-    "Hi!  I'm using ONSCREEN for easy video calls on my TV.\n\nI would like you to join me so we can catch up.\n\nClick here to install the app: {{dynamicLink}}",
+    'Hi!  I\'m using ONSCREEN for easy video calls on my TV.\n\nI would like you to join me so we can catch up.\n\nClick here to install the app: {{dynamicLink}}',
+  letsUseOnscreen:
+    'Let\'s use ONSCREEN for video calls on my TV',
+  letsUseOnscreenForCaregiver:
+    'Let\'s use ONSCREEN for video calls with {{careReceiverFirstName}}',
   thisWillResetYourDevice:
-    "This will reset your device's user account and network settings.\n\nIt will also disconnect any users you've invited to the device.\n\nYou will need to reconnect with your QR code.",
+    'This will reset your device\'s user account and network settings.\n\nIt will also disconnect any users you\'ve invited to the device.\n\nYou will need to reconnect with your QR code.',
   errorOccurred: 'Error occurred:',
   youHaveNewCaregiverUpdate: 'You have a new Caregiver update',
   messageNotificationTitleCaregiver:
     '{{message}\nPlease go to the Caregiver tab to see it.',
   wereSorryAnErrorOccurred: 'Were sorry, an error occurred.',
-  heyThatsYou: "Hey, that's you",
+  heyThatsYou: 'Hey, that\'s you',
   sorryYouCantAddFavorites:
-    "Sorry, you can't add yourself to favorites.  Nice try though.",
+    'Sorry, you can\'t add yourself to favorites.  Nice try though.',
   badLink: 'Bad Link',
   sorryThatLinkDoesntCorrect:
-    "Sorry, that link doesn't seem to be correct. Please try a different one.",
+    'Sorry, that link doesn\'t seem to be correct. Please try a different one.',
   curatedVideo: 'Curated Video',
   weveSelectedPlaylistForLoved:
-    "We've selected these playlists for your loved one's enjoyment.  You can review them on your mobile device, or set them as their playlist.",
+    'We\'ve selected these playlists for your loved one\'s enjoyment.  You can review them on your mobile device, or set them as their playlist.',
   wereSorryAnErrorOccurredSaving:
-    "We're sorry, an error occurred while saving the schedule: ",
+    'We\'re sorry, an error occurred while saving the schedule: ',
   dailyUpdateOverview: 'Daily Update Overview',
   dailyUpdateFeatureReceiveVideo:
-    "The Daily Update feature lets you receive video recordings of your loved one. They will be prompted to answer the standard 'How are you feeling?' question on the TV, and a 30 second video recording will be made. You will receive the recording usually a few minutes later. You can customize settings below.",
+    'The Daily Update feature lets you receive video recordings of your loved one. They will be prompted to answer the standard \'How are you feeling?\' question on the TV, and a 30 second video recording will be made. You will receive the recording usually a few minutes later. You can customize settings below.',
   pleaseAllowContactsPermission: 'Please Allow Contacts Permissions',
-  allowContactsDescription: "Without allowing this permissions, you will not be able to make calls.  Please go to Settings and enable the permission.\n\nDo you want to go to Settings now?",
-  joinToZoom: "Join {{careReceiverName}} to a Zoom Meeting",
-  joinAZoom: "Join a Zoom Meeting",
-  toHostAMeeting: "To host a meeting,\nplease use Start Meeting.",
-  usingApp: "Using App for calls, since you don't have a ONSCREEN Device.",
-  learnSpark: 'Learn more about the ONSCREEN Device',
-  useMobile: "Use Mobile app for calls",
-  iosHeader: "Please Choose",
+  allowContactsDescription: 'Without allowing this permissions, you will not be able to make calls.  Please go to Settings and enable the permission.\n\nDo you want to go to Settings now?',
+  joinToZoom: 'Join {{careReceiverName}} to a Zoom Meeting',
+  joinAZoom: 'Join a Zoom Meeting',
+  toHostAMeeting: 'To host a meeting,\nplease use Start Meeting.',
+  usingApp: 'Using App for calls, since you don\'t have an ' + productName + ' device.',
+  learnSpark: 'Learn more about the ' + productName + '',
+  useMobile: 'Use Mobile app for calls',
+  iosHeader: 'Please Choose',
   deviceUnavailable: ' (Unavailable)',
   use: 'Use ',
   forCalls: ' for calls',
@@ -713,32 +715,32 @@ export default {
   enterLastName: 'Please enter a last name.',
   enterWifiPassword: 'Please enter the wifi password.',
   enterMobileNumber: 'Please enter your mobile number.',
-  enterValidNumber: 'Please enter valid mobile number.',
-  caregiverMode: "With a Senior and their TV",
-  myselfMode: "For Myself on my TV",
-  withoutTVMode: "Using App Without TV",
+  enterValidNumber: 'Please enter a valid mobile number.',
+  caregiverMode: 'With a Senior and their TV',
+  myselfMode: 'For Myself on my TV',
+  withoutTVMode: 'Using App Without TV',
   callStateNone: 'Starting...',
   callStateCalling: 'Calling...',
   callStateConnecting: 'Connecting...',
-  callStateAnswering:'Connecting...',
-  callStateConnected:'Connected',
-  callStateDisconnecting:'Disconnected',
-  callStateCancelled:'Cancelled',
-  callStateCountdown:'Auto-Answering...',
+  callStateAnswering: 'Connecting...',
+  callStateConnected: 'Connected',
+  callStateDisconnecting: 'Disconnected',
+  callStateCancelled: 'Cancelled',
+  callStateCountdown: 'Auto-Answering...',
   otherParty: 'The other party is auto-answering',
   inAbout: ' in about ',
   seconds: '  seconds',
   privacyNotice: '... privacy notice is being shown.',
   noPhoneNumbers: 'No Phone Numbers',
   noPhoneNumbersFound: 'We could not find any phone numbers for ',
-  isNotUsing: "is not using ONSCREEN yet, so they can't be added to Favorites yet.  Would you like to invite them?",
-  donotSwitch: "Don't Switch",
-  videoFreezing: "Video was freezing",
-  videoLowQuality: "Video was low quality",
-  videoBlack: "Could not see any video",
-  audioChoppy: "Audio was choppy or poor quality",
-  audioEcho: "Audio had echo",
-  settingsFor: "Settings for ",
+  isNotUsing: 'is not using ONSCREEN yet, so they can\'t be added to Favorites yet.  Would you like to invite them?',
+  doNotSwitch: 'Don\'t Switch',
+  videoFreezing: 'Video was freezing',
+  videoLowQuality: 'Video was low quality',
+  videoBlack: 'Could not see any video',
+  audioChoppy: 'Audio was choppy or poor quality',
+  audioEcho: 'Audio had echo',
+  settingsFor: 'Settings for ',
   dailyUpdateSchedule: 'Daily Update Schedule',
   sun: 'Sun',
   mon: 'Mon',
@@ -750,11 +752,17 @@ export default {
   noBoost: 'No boost (default)',
   mildBoost: 'Mild Boost',
   medBoost: 'Medium Boost',
-  maxBoost: 'maxBoost',
-  favoritesArePeople: "Favorites are people that you've accepted an invitation from, or have been added from your Contacts.  Just tap to make a call.",
+  maxBoost: 'Maximum Boost',
+  favoritesArePeople: 'Favorites are people that you\'ve accepted an invitation from, or have been added from your Contacts.  Just tap to make a call.',
   emailInUse: 'That email address is already in use!',
   emailInvalid: 'That email address is invalid!.',
   weakPassword: 'Your password is not strong enough.',
   tooManyRequests: 'Too many request. Try again in a minute.',
   internetError: 'Please check your internet connection.',
+  tvSpeakers: 'TV Speakers (default)',
+  internalSpeakers: 'Internal Speakers (can help with echo)',
+  tvSettings: 'TV Settings',
+  autoAnswer: 'Auto-Answer',
+  showMore: 'Show More',
+  showLess: 'Show Less'
 }
